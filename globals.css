@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:500');
+
+h1{
+  font-size: 100px;
+}
+
+p{
+  font-size: 40px;
+  max-width: 450px;
+  color: rgb(252, 122, 47);
+  margin: auto;
+  padding: 30px;
+  border: 1px solid rgb(0, 0, 0);
+  backdrop-filter:blur(7px);
+  
+  background:rgba(253, 229, 229, 0.5);
+  border-radius: 20px;
+  box-shadow:black;
+  box-shadow: 0px 0px 16px 0px rgba(247, 231, 231, 0.5);
+}
+
+body {
+  background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    perspective: 1000px;
+    background-image: url(https://media.licdn.com/dms/image/C4E12AQFVSjARhelzeQ/article-cover_image-shrink_720_1280/0/1622954917819?e=2147483647&v=beta&t=LJfuM3XT1ErVIgJwrPLU3rfHdASUHZF2ADjoYA1uvgA  );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #f0f0f0;
+    backdrop-filter:blur(5px);
+    height: 100vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, 
+    sans-serif;
+    
+    
+    
+  
+}
+
+.increment {
+  
+  background-image: linear-gradient(144deg,#00ff0d, #0ca821 50%,#1be9c7);
+  border-radius: 20px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  border: 1px solid #000000;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  max-width: 100%;
+  padding: 19px 24px;
+  cursor: pointer;
+}
+
+.btn{
+  justify-content: space-between;
+  display: flex;
+}
+
+.increment:active,
+.increment:hover {
+  outline: 1;
+}
+
+@media (min-width: 768px) {
+  .increment {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+
+
+.dicrement {
+ 
+  background-image: linear-gradient(144deg,#ff0000, #f54a33 50%,#f8b931);
+  border-radius:  20px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  border: 1px solid #000000;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  max-width: 100%;
+  padding: 19px 24px;
+  cursor: pointer;
+}
+
+.dicrement:active,
+.dicrement:hover {
+  outline: 5;
+}
+
+@media (min-width: 768px) {
+  .dicrement {
+    font-size: 25px;
+    min-width: 196px;
+  }
+}
